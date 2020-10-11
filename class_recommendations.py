@@ -19,7 +19,6 @@ Original file is located at
 person1 = np.array([1, 2, 3, 4, 5, 6, 7])
 person2 = np.array([1, 2, 7, 4, 5, 4, 6])
 
-np.equal(person1, person2)
 
 array1 = np.array([1, 2, 3, 4, 5])
 array2 = np.array([1, 2, 0, 4, 0])
@@ -32,7 +31,6 @@ def schedule_similarity(array_person1, array_person2):
     return (np.sum(array_person1 == array_person2),catagorical_sim_array)
     
     
-schedule_similarity(person1, person2)
 
 import numpy as np
 import pandas as pd
