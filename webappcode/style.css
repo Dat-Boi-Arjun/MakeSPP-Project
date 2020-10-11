@@ -1,0 +1,122 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 70em;
+  margin: auto;
+  
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.messages {
+  padding: 8px;
+  background: #f4f4f4;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 8px 0px;
+}
+
+.messages > div {
+  padding: 8px 0px; 
+}
+
+.messages > div > span {
+  color: rgb(255, 166, 0);
+}
+
+.messages > div > p {
+  color: #191919;
+  margin: 0px;
+  padding: 4px 0px;
+}
+
+.username {
+  font-size: 18px;
+  padding: 4px;
+  height: 18px;
+  width: 300px;
+  border: none;
+}
+.message {
+  font-size: 18px;
+  padding: 4px;
+  height: 18px;
+  width: 300px;
+  border: none;
+}
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 150px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart .circle {
+  stroke: #ff9f00;
+  
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(124, 129, 133);
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: rgb(241, 196, 111);
+  color: white;
+}
+
+.topnav {
+  background-color: #333;
+  background: #6e6d6a
+}
+
+body {
+    border: 20px solid rgb(255, 255, 255);
+}
